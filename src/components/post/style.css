@@ -1,0 +1,37 @@
+.post {
+  margin: 1em 0;
+  color: var(--white);
+  border: 1px solid var(--darkGrey);
+  border-radius: 3px;
+}
+
+.post:hover {
+  color: var(--darkGreen);
+  background: var(--darkGrey);
+}
+
+.post:hover .post-author {
+  color: var(--darkGreen);
+}
+
+.post-text {
+  padding: 1em;
+}
+
+hr {
+  background: var(--darkGrey)
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.post-comments {
+  color: var(--darkGreen);
+}
+
+.post-author {
+  color: var(--darkGrey);
+}

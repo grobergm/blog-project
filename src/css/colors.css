@@ -1,0 +1,31 @@
+:root {
+  --white: #ffffff;
+  --lightGrey: #e9ebe1;
+  --grey:#919487;
+  --darkGrey:#4D4F48;
+  --black:#000000;
+  --lightGreen: #c9f646;
+  --darkGreen: #9bcc0f;
+}
+
+.greenText {
+  color: var(--darkGreen);
+}
+
+.whiteText {
+  color: var(--white);
+}
+
+.greenBtn {
+  background: var(--lightGreen);
+}
+
+.greenBtn:hover {
+  background: var(--darkGreen);
+}
+
+.inactive {
+  background: var(--black);
+  color: var(--darkGrey);
+  border: 1px solid var(--darkGrey);
+}

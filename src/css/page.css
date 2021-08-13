@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  background: var(--black);
+}
+
+.pageContainer {
+  max-width: 780px;
+  margin: 2em auto;
+  padding: 2em;
+  font-family: sans-serif;
+}
+
+.mainHeader {
+  padding: 0.25em;
+  background-image: linear-gradient(to right, var(--darkGrey),var(--black))
+}
+
+#posts {
+  margin: 2em 0;
+}
+
+.footerButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerButons button {
+  transition: background 0.2s;
+  padding:0.5em;
+  font-weight: bold;
+}
